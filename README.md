@@ -1,42 +1,45 @@
-# ⚡ Energy Consumption Analysis Using KNIME
+# 🚗 Car Insurance Claim Prediction Using KNIME
 
-A visual workflow-based project built using **KNIME Analytics Platform** to analyze and predict energy consumption patterns, enabling data-driven decisions for energy efficiency and sustainability.
-
-## 📊 Project Overview
-
-This project focuses on processing and analyzing historical energy consumption data to uncover insights and build a predictive model for future usage. It uses KNIME's drag-and-drop interface for easy integration, data preprocessing, and machine learning.
+A predictive analytics project developed using **KNIME Analytics Platform** to forecast the likelihood of insurance claims based on customer and vehicle profiles. This project helps insurers make informed, data-driven decisions to reduce risk and detect fraud.
 
 ---
 
-## 🚀 Features
+## 📌 Project Objective
 
-- ✅ Data preprocessing (missing value handling, normalization)
-- ✅ Time-series visualization of energy trends
-- ✅ Correlation & pattern analysis
-- ✅ Predictive modeling using regression
-- ✅ Dashboard-style report generation
-- ✅ Export of model results and performance metrics
+The aim is to analyze customer and vehicle data to identify patterns that lead to insurance claims. Using KNIME's workflow interface, the project builds a classification model to predict whether a policyholder is likely to make a claim.
 
 ---
 
-## 🛠️ Tools & Technologies
+## ⚙️ Features
+
+- ✅ Data cleaning and transformation
+- ✅ Feature selection and correlation analysis
+- ✅ Exploratory data analysis (EDA)
+- ✅ Classification modeling (Logistic Regression, Decision Tree, Random Forest)
+- ✅ Accuracy, Confusion Matrix, ROC curve evaluation
+- ✅ Export of results and model performance
+
+---
+
+## 📦 Tech Stack
 
 - **KNIME Analytics Platform**
-- **Excel / CSV dataset**
-- **Regression (Linear, Decision Tree)**
-- **Visualization Nodes (Bar chart, Line plot, Scatter plot)**
+- **CSV/XLS dataset**
+- **Classification algorithms**
+- **Visualization Nodes**
+- **Scorer, ROC Curve, Confusion Matrix**
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Project Structure
 
 ```bash
-├── energy_knime_project/
+├── car_insurance_knime_project/
 │   ├── workflows/
-│   │   ├── energy_analysis.knwf
+│   │   ├── claim_prediction.knwf
 │   ├── dataset/
-│   │   ├── energy_data.csv
+│   │   ├── insurance_data.csv
 │   ├── screenshots/
-│   │   ├── workflow_overview.png
-│   │   ├── model_output.png
+│   │   ├── workflow_diagram.png
+│   │   ├── model_performance.png
 │   └── README.md
